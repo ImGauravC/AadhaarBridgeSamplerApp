@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="envoptions">
+        <item name="preprod">Pre-production</item>
+        <item name="prod">Production</item>
+    </string-array>
+
+    <string-array name="envoptionvalues">
+        <item name="preprod">Pre-production</item>
+        <item name="prod">Production</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Server Settings">
+        <EditTextPreference
+            android:key="serverHost"
+            android:summary="server url along with the port if required"
+            android:title="Server Url"
+            android:defaultValue="https://ac.khoslalabs.com/hackgate/hackathon">
+        </EditTextPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Environment Settings">
+        <ListPreference
+            android:entries="@array/envoptions"
+            android:entryValues="@array/envoptionvalues"
+            android:key="environment"
+            android:defaultValue="Production"
+            android:summary="Select the Environment"
+            android:title="Environment">
+        </ListPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
